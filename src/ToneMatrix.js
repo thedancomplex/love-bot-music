@@ -1,3 +1,6 @@
+/*
+const dgram = require('dgram');
+*/
 /* global ClipboardJS */
 /* global Tone */
 /* global Grid */
@@ -21,6 +24,16 @@ class ToneMatrix { // eslint-disable-line no-unused-vars
     function setNoteFromFileFun() {
       this.setNoteFromFile();
     }
+    */
+
+    /*
+    const server = dgram.createSocket('udp4');
+    server.bind(41234);
+    */
+    /*
+    server.on('message', () => {
+      alert('got message');
+    });
     */
 
     /**
